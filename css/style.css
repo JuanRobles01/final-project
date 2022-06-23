@@ -33,13 +33,6 @@ body{
     font-family: 'Joan', serif;
 }
 #hero-image{
-    /* background-image: linear-gradient
-    (rgba(0,0,0,0.7), 
-    rgba(0,0,0,0.7))
-    url(/final-project/images/hero\ image.jpg); */
-    /* background-position: center;
-    background-repeat: no repeat;
-    background-size: cover; */
     height: 50vh;
     width: 100%;
     display: flex;
@@ -64,6 +57,7 @@ body{
 #hero-image #hero-text h1{
     font-size: 50px;
     font-weight: 500;
+    font-family: 'Staatliches', cursive;
 }
 #hero-image #hero-text p{
     font-size: 30px;
@@ -87,10 +81,39 @@ body{
     float: left;
     margin-top: 250px;
     font-size: 25px;
-    background-color: antiquewhite;
+    background-color: #1E085D;
+    color: white;
 }
-#driveway{
+#driveway img{
+    width: 40%;
     float: right;
     margin-top: 200px;
-
 }
+#concrete-cleaning{
+    float: right;
+    outline: 2px dashed black;
+    text-align: left;
+    font-size: 25px;
+    background-color: #1E085D;
+    color: white;
+    width: 30%;
+    margin-right: 200px;
+    margin-top: 250px;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.column img{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 50px;
+  filter: brightness(75%);
+  border: 5px solid  #1E085D;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
