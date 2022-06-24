@@ -1,6 +1,4 @@
-*{
-    /* background-color: rgba(0,255,0,0.1) */
-}
+
 nav{
     height: 150px;
     width: 100%;
@@ -66,39 +64,60 @@ body{
 }
 #service-list{
     margin-top: 125px;
-    margin-left: 50px;
+    margin-left: 25px;
     float: left;
-    width: 60%;
+    width: 100%;
 }
 #service-list img{
     height: 400px;
-    border: 5px solid black;
+    border: 5px solid #1E085D;
 }
 #services{
-    width: 30%;
-    outline: 2px dashed black;
-    text-align: left;
-    float: left;
-    margin-top: 250px;
+    width: 50%;
+    outline: 5px solid black;
+    float: right;
+    margin-top: 150px;
+    margin-right:25px;
     font-size: 25px;
     background-color: #1E085D;
     color: white;
 }
-#driveway img{
+/* #driveway img{
     width: 40%;
     float: right;
     margin-top: 200px;
+    border: 5px solid #1E085D;
 }
 #concrete-cleaning{
     float: right;
-    outline: 2px dashed black;
-    text-align: left;
-    font-size: 25px;
+    outline: 5px solid black;
+    /* text-align: left; */
+    /* font-size: 25px;
     background-color: #1E085D;
     color: white;
     width: 30%;
     margin-right: 200px;
-    margin-top: 250px;
+    margin-top: 250px; */
+} */
+#driveway{
+  margin-top: 125px;
+  margin-left: 25px;
+  float: left;
+  width: 100%;
+}
+#driveway img{
+  height: 400px;
+  border: 5px solid #1E085D;
+}
+#concrete-cleaning{
+  width: 50%;
+  outline: 5px solid black;
+  float: right;
+  margin-top: 150px;
+  margin-right:25px;
+  font-size: 25px;
+  background-color: #1E085D;
+  color: white;
 }
 .column {
   float: left;
@@ -111,9 +130,164 @@ body{
   filter: brightness(75%);
   border: 5px solid  #1E085D;
 }
+.column2{
+  float: left;
+  width: 40%;
+  margin-top: 200px;
+  margin-left: 100px;
+  border:black solid 5px;
+  font-family: 'Joan', serif;
+  font-size: 20px;
+  color: white;
+  background-color: #1E085D;
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
+#youtube-video{
+  height:250px;
+  width: 500px;
+}
+/* #house-washing{
+  /* float: right; */
+  /* width: 100%;
+  margin-top: 600px; */
+ */
+/* #house-washing img{
+  height: 400px;
+  /* margin-top:300px; */
+  /* width: 40%;
+  float: left;
+  border: 5px solid #1E085D;
+  padding-top: 400px;
+} */
+/* #house{
+  float: right;
+  width: 50%;
+  /* margin-top:500px; */
+  /* outline: 5px solid black; */
+  /* text-align: left; */
+  /* font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+} */ */ */
+#house-washing{
+  margin-top: 125px;
+  margin-left: 25px;
+  float: left;
+  width: 100%;
+}
+#house-washing img{
+  height: 400px;
+  border: 5px solid #1E085D;
+}
+#house{
+  width: 50%;
+  outline: 5px solid black;
+  float: right;
+  margin-top: 150px;
+  margin-right:25px;
+  font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+}
+/* #deck-cleaning{
+  float: right;
+  width: 100%;
+}
+#deck{
+  outline: 5px solid black;
+  font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+} */
+#deck-cleaning{
+  /* margin-top: 125px; */
+  margin-left: 25px;
+  float: left;
+  width: 100%;
+}
+#deck-cleaning img{
+  height: 300px;
+  border: 5px solid #1E085D;
+}
+#deck{
+  width: 50%;
+  outline: 5px solid black;
+  float: right;
+  margin-top: 150px;
+  margin-right:25px;
+  font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+}
+/* #gutter{
+  outline: 5px solid black;
+  /* text-align: left; */
+  /* font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+} */ */
+#gutter-cleaning{
+  margin-top: 125px;
+  margin-left: 25px;
+  float: left;
+  width: 100%;
+}
+#gutter-cleaning img{
+  height: 300px;
+  border: 5px solid #1E085D;
+}
+#gutter{
+  width: 50%;
+  outline: 5px solid black;
+  float: right;
+  margin-top: 150px;
+  margin-right:25px;
+  font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+}
+.container{
+  /* height: 100%;/
+  width: 100%; */
+  text-align: center;
+  /* background-color: rgb(110, 104, 104); */
+}
+#fname{
+  margin-top: 50px;
+}
+#lname{
+  margin-top: 20px;
+}
+#email{
+  margin-top: 20px;
+}
+#subject{
+  margin-top: 20px;
+}
+/* #youtube-video{
+  margin-top: 125px;
+  margin-left: 25px;
+  float: left;
+  width: 100%;
+}
+#youtube-video iframe{
+  height: 300px;
+  border: 5px solid #1E085D;
+} */
+#youtube{
+  width: 50%;
+  outline: 5px solid black;
+  float: right;
+  margin-top: 150px;
+  margin-right:25px;
+  font-size: 25px;
+  background-color: #1E085D;
+  color: white;
+}
+#background{
+  background-image: url("/final-project/images/background\ contact\ page.jpg");
+}
