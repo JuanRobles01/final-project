@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
-        <link rel="stylesheet" href="css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Joan&family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
         <title>Home</title>
-    </header>
+        <script src="https://kit.fontawesome.com/8ae4128c20.js" crossorigin="anonymous"></script>
+    </head>
     <nav>
         <div id="logo">
             <img src="/final-project/images/logo 2.png" height="150px" width="150px"alt="rendezvous pressure and soft washing co. logo">
@@ -25,9 +29,11 @@
                 <p>Fresno, California</p>
             </div>
         </div>
-        <div id="service-list">
-            <img src="/final-project/images/service list.jpg" alt="house cleaning, gutter cleaning, deck cleaning, concrete cleaning">
-            <div id="services">
+        <div class="row">
+            <div class="col1">
+                <img src="/final-project/images/service list.jpg" alt="house cleaning, gutter cleaning, deck cleaning, concrete cleaning">
+            </div>
+            <div class="col2">
                 Rendezvous offers a multitude of cleaning services which include:
                 <ul>
                     <li>Concrete Cleaning</li>
@@ -37,57 +43,71 @@
                 </ul>
             </div>
         </div>
-        <!-- <div id="services">
-            Rendezvous offers a multitude of cleaning services which include:
-            <ul>
-                <li>Concrete Cleaning</li>
-                <li>House Cleaning</li>
-                <li>Deck Cleaning</li>
-                <li>Gutter Cleaning</li>
-            </ul>
-        </div> -->
-        <div id="driveway">
-            <img src="/final-project/images/Driveway.jpg" alt="pressure washing driveway">
-            <div id="concrete-cleaning">
-                One of the services we have is concrete cleaning. This includes driveways, pathways, and any other concrete service you have on your property.
+        <div class="row">
+            <div class="col3">
+                One of the services we have is concrete cleaning. 
+                This includes driveways, pathways, and any other concrete service you have on your property.
+                We have a combination of pressure washers to provide great results on your concrete areas. 
+            </div>
+            <div class="col4">
+                <img src="/final-project/images/Driveway.jpg" alt="pressure washing driveway" id="driveway">
             </div>
         </div>
-        <!-- <div id="concrete-cleaning">
-            One of the services we have is concrete cleaning. This includes driveways, pathways, and any other concrete service you have on your property.
-        </div> -->
-        <div id="house-washing">
-            <img src="/final-project/images/house washing.jpg" alt="pressure washing wand cleaning outside of house">
-            <div id="house">
-                Rendezvous provides soft washing for housing as well to ensure that materials are not damaged.
-            </div>
+        <div class="row">
+                <div class="col1">
+                    <img src="/final-project/images/house washing.jpg" alt="pressure washing wand cleaning outside of house">
+                </div>
+                <div class="col2">
+                    Rendezvous provides soft washing for housing as well to ensure that materials are not damaged.
+                    However, if you would rather do a simple pressure wash to your house we can still accommodate your wishes.
+                    Pressure washing will still leave your house clean but we do recommend using soft washing on homes to prevent damages and ensure longer lasting results.
+                </div>
         </div>
-        <!-- <div id="house">
-            Rendezvous provides soft washing for housing as well to ensure that materials are not damaged.
-        </div> -->
-        <div id="deck-cleaning">
+         <div class="row">
+            <div class="col3">
+                Got a dirty deck that needs cleaning?
+                Not a problem!
+                Our company also offers deck cleaning services to our customers to help get those decks looking vibrant.
+                Our solutions help get all the organic matter that build up easily in these wood surfaces.
+            </div>
+            <div class="col4">
             <img src="/final-project/images/deck cleaning.jpg" alt="pressure washing wand cleaning deck">
-            <div id="deck">
-                We offer deck cleaning as well.
             </div>
         </div>
-        <!-- <div id="deck">
-            We offer deck cleaning as well.
-        </div> -->
-        <div id="gutter-cleaning">
-            <img src="/final-project/images/gutter cleaning.jpg" alt="brush scrubbing gutter">
-            <div id="gutter">
-            Our pressure washing services also include cleaning gutters as well.
+        <div class="row">
+            <div class="col1">
+                <img src="/final-project/images/gutter cleaning.jpg" alt="brush scrubbing gutter">
+            </div>
+            <div class="col2">
+                Rendezvous Pressure and Soft Washing Co. provides gutter cleaning service for your home as well.
+                We have the tools not only clear out all the junk and residue that lies within the gutters, we also have tools and solutions that help clean the outside of your gutters.
+                Our service will leave your gutters looking beautiful inside and out!
+            </div>
         </div>
-        </div>
-        <!-- <div id="gutter">
-            Our pressure washing services also include cleaning gutters as well.
-        </div> -->
-        <div>
-            <iframe id="youtube-video" width="1014" height="570" src="https://www.youtube.com/embed/BxCwmVcN6zo" title="Pressure Washing vs Softwashing (Which Is Better?!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div id="youtube">
+        <div class="row">
+            <div class="col3">
                 Here is a video to check out the difference between using pressure washing and soft washing for your home!
             </div>
+            <div class="col4">
+                <iframe width="507" height="285" src="https://www.youtube.com/embed/BxCwmVcN6zo" title="Pressure Washing vs Softwashing (Which Is Better?!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
+        <footer>
+            <div class="row">
+                <div class="footer-column">
+                    <img src="/final-project/images/logo 2.png" alt="rendezvous pressure and soft washing co. logo" id="footer-logo">
+                </div>
+                <div class="footer-column" id="address">
+                    344 E Stanislaus St, Fresno, CA 93706
+                </div>
+                <div class="footer-column">
+                    <ul>
+                        <li><a href="mailto:johndoe@email.com"><i class="fa-solid fa-envelope" id="envelope"></i>johndoe@gmail.com</a></li>
+                        <li><a href="phoneto:(555) 555-5555"><i class="fa-solid fa-phone" id="phone"></i>(555) 555-5555</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f" id="facebook"></i>johndoefresno</a></li>
+                    </ul>
+                </div>
+              </div>
+    </footer>
     </body>
-
 </html>
